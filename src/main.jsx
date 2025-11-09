@@ -5,13 +5,13 @@ import App from "./App.jsx";
 import "./index.css";
 import StoreContextProvider from "./context/StoreContext";
 
-
+    
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   
     <BrowserRouter>
     <StoreContextProvider>
- <App />
+    < App />
     </StoreContextProvider>
      
     </BrowserRouter>
