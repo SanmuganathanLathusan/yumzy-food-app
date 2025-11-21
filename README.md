@@ -1,36 +1,40 @@
+<div align="center"><span style="font-size: 45px; font-weight: 800; background: linear-gradient(to right, #ff512f, #dd2476); -webkit-background-clip: text; color: transparent;">🍔 Food Delivery App</span></div>
 
+A modern MERN food delivery application built using
+<span style="color:#9b59b6; font-weight: bold;">React + Vite</span>,
+<span style="color:#3498db; font-weight: bold;">Node.js + Express</span>,
+and <span style="color:#2ecc71; font-weight: bold;">MongoDB Atlas</span>.
 
-# 🍔 Food Delivery App
+This full-stack project includes authentication, food management, cart system, and API integration.
 
-A full-stack **MERN** food delivery application built using **React + Vite**, **Node.js**, **Express**, and **MongoDB Atlas**.
-This project includes user authentication, cart handling, food listings, and backend API integration.
+<span style="background: linear-gradient(to right, #6a11cb, #2575fc); -webkit-background-clip: text; color: transparent; font-size: 32px;">🚀 Tech Stack</span>
+<span style="color:#f39c12;">Frontend (React + Vite)</span>
 
----
+React.js
 
-## 🚀 Tech Stack
+Vite
 
-### **Frontend (React + Vite)**
+Axios
 
-* React.js
-* Vite
-* Axios
-* React Router
-* Tailwind CSS / CSS Modules (optional)
+React Router
 
-### **Backend (Node + Express)**
+Tailwind CSS / CSS Modules
 
-* Express.js
-* MongoDB Atlas
-* Mongoose
-* Bcrypt.js
-* JWT Authentication
-* CORS
+<span style="color:#e91e63;">Backend (Node + Express)</span>
 
----
+Express.js
 
-## 📂 Project Structure
+MongoDB Atlas
 
-```
+Mongoose
+
+Bcrypt.js
+
+JWT Authentication
+
+CORS
+
+<span style="background: linear-gradient(to right, #ff7eb3, #ff758c); -webkit-background-clip: text; color: transparent; font-size: 32px;">📂 Project Structure</span>
 food-delivery-app/
 │
 ├── client/              # React + Vite frontend
@@ -49,117 +53,17 @@ food-delivery-app/
     ├── server.js
     ├── .env
     └── config/db.js
-```
 
----
-
-## ⚙️ Installation & Setup
-
-### **1️⃣ Clone the repository**
-
-```bash
+<span style="background: linear-gradient(to right, #00c6ff, #0072ff); -webkit-background-clip: text; color: transparent; font-size: 32px;">⚙️ Installation & Setup</span>
+<span style="color:#00b894;">1️⃣ Clone the Repository</span>
 git clone https://github.com/yourusername/food-delivery-app.git
 cd food-delivery-app
-```
 
----
-
-## 🖥️ Frontend Setup (React + Vite)
-
-### **Install dependencies**
-
-```bash
+<span style="background: linear-gradient(to right, #fbc2eb, #a6c1ee); -webkit-background-clip: text; color: transparent; font-size: 30px;">🖥️ Frontend Setup (React + Vite)</span>
+<span style="color:#e67e22;">Install dependencies</span>
 cd client
 npm install
-```
 
-### **Start development server**
-
-```bash
+<span style="color:#9b59b6;">Start development server</span>
 npm run dev
-```
 
-### **Build for production**
-
-```bash
-npm run build
-```
-
----
-
-## 🛠️ Backend Setup (Node.js + Express)
-
-### **Install dependencies**
-
-```bash
-cd server
-npm install
-```
-
-### **Add environment variables (.env file)**
-
-Create `.env` inside the **server** folder:
-
-```
-MONGO_URI=your-mongodb-atlas-url
-JWT_SECRET=your-secret-key
-PORT=5000
-```
-
-### **Run backend server**
-
-```bash
-npm start
-```
-
-Server runs at:
-👉 [http://localhost:5000](http://localhost:5000)
-
----
-
-## 🔗 API Endpoints
-
-### **Auth**
-
-| Method | Endpoint             | Description   |
-| ------ | -------------------- | ------------- |
-| POST   | `/api/auth/register` | Register user |
-| POST   | `/api/auth/login`    | Login user    |
-
-### **Food**
-
-| Method | Endpoint     | Description          |
-| ------ | ------------ | -------------------- |
-| GET    | `/api/foods` | Get all foods        |
-| POST   | `/api/foods` | Add new food (Admin) |
-
-### **Cart**
-
-| Method | Endpoint                   | Description      |
-| ------ | -------------------------- | ---------------- |
-| POST   | `/api/cart/add`            | Add item to cart |
-| GET    | `/api/cart/:id`            | Get user's cart  |
-| DELETE | `/api/cart/remove/:itemId` | Remove item      |
-
----
-
-## 📝 Features
-
-### Frontend
-
-✔️ Modern UI with React
-✔️ Food listing page
-✔️ Add to cart
-✔️ Login & Register
-✔️ Cart page
-✔️ Order summary
-
-### Backend
-
-✔️ Secure Authentication
-✔️ JWT-based login
-✔️ CRUD API for food items
-✔️ MongoDB Atlas database
-✔️ Cart handling logic
-
----
